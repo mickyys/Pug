@@ -12,4 +12,13 @@ html(lang="es")
         include atributos.pug    
         //Iteracion
         include iteracion.pug
-            
+        //mixin    
+        include mixin.pug
+        +list
+        
+        ul
+            +persona("Lupa")
+            +persona("Carla")
+            +persona("Emilia")
+            +persona("Vicente")
+            +persona("Hector")
